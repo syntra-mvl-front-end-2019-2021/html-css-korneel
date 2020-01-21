@@ -4,3 +4,15 @@ p {
     margin-left: 50px;
     background-color: gold;
 }
+
+body p {
+    background-color: red;
+}
+
+.klassse-1.klasse-2 {
+    background-color: blue;
+}
+
+#id-1 {
+    background-color: gray;
+}
