@@ -16,3 +16,17 @@ body p {
 #id-1 {
     background-color: gray;
 }
+
+p.klasse-1{
+    box-sizing: border-box;
+    margin: 5px;
+    border: 2px solid black;
+    padding: 20px;
+    height: 250px;
+    width: 250px;
+}
+
+.klasse-3 {
+    display: inline-block;
+    width: 500px;
+}
