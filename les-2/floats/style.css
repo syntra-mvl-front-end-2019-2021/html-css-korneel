@@ -1,0 +1,57 @@
+p {
+    font-size: 20px;
+}
+
+.float-img {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+header {
+    background-color: red;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+header.overflow-auto {
+    overflow: hidden;
+}
+
+.logo {
+    height: 25px;
+    width: 75px;
+    background-color: blue;
+}
+
+.logo.float-left {
+    float: left;
+}
+
+.nav-item {
+    height: 25px;
+    width: 75px;
+    margin-left: 5px;
+    float: right;
+}
+
+.item-1 {
+    background-color: purple;
+}
+
+.item-2 {
+    background-color: green;
+}
+
+.item-3 {
+    background-color: yellow;
+}
+
+.overflow-test {
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+    overflow: auto;
+}
