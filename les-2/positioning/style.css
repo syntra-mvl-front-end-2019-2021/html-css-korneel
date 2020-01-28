@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+}
+
+.red {
+    background-color: red;
+    height: 250px;
+}
+
+.green {
+    background-color: green;
+    height: 250px;
+    /* position: relative; */
+}
+
+.pos-relative {
+    height: 400px;
+    width: 400px;
+    background-color: #aabbcc;
+    position: relative;
+    bottom: -40px;
+    left: 50%;
+}
+
+.pos-absolute {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    top: 10px;
+}
+
+.pos-absolute-2 {
+    width: 40px;
+    height: 40px;
+    background-color: gold;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+}
+
+.abs-in-abs {
+    background-color: black;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    left: 5px;
+    bottom: 5px;
+}
+
+.fixed {
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    background-color: brown;
+    top: 30%;
+}
+
+.sticky {
+    position: sticky;
+    height: 50px;
+    width: 100%;
+    background-color: hotpink;
+    top: 0;
+}
