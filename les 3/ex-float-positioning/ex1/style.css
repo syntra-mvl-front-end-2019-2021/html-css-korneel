@@ -1,0 +1,39 @@
+.container {
+    margin: auto;
+    width: 700px;
+    height: 700px;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+.top {
+    line-height: 200px;
+    float: left;
+    width: 500px;
+    height: 200px;
+    background-color: green;
+}
+
+.left {
+    line-height: 500px;
+    float: left;
+    width: 200px;
+    height: 500px;
+    background-color: red;
+}
+
+.right {
+    line-height: 500px;
+    float: right;
+    width: 200px;
+    height: 500px;
+    background-color: orange;
+}
+
+.bottom {
+    line-height: 200px;
+    float: right;
+    width: 500px;
+    height: 200px;
+    background-color: fuchsia;
+}
