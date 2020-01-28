@@ -1,0 +1,43 @@
+.body {
+    background-color: lightblue;
+    width: 400px;
+    height: 220px;
+    margin-top: 300px;
+    margin-left: 250px;
+}
+
+.tail {
+    width: 200px;
+    height: 25px;
+    background-color: lightcoral;
+}
+
+.paw-left {
+    background-color: lightcoral;
+    height: 175px;
+    width: 25px;
+}
+
+.paw-right {
+    background-color: lightcoral;
+    height: 175px;
+    width: 25px;
+}
+
+.head {
+    height: 150px;
+    width: 150px;
+    background-color: lightcoral;
+}
+
+.eye {
+    height: 25px;
+    width: 25px;
+    background-color: white;
+}
+
+.ear {
+    height: 100px;
+    width: 50px;
+    background-color: brown;
+}
