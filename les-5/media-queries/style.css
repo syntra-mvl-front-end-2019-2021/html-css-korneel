@@ -1,0 +1,121 @@
+.test-div-orientation {
+    height: 200px;
+    width: 200px;
+    background-color: goldenrod;
+}
+
+@media screen and (orientation: landscape) {
+    .test-div-orientation {
+        background-color: green;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    .test-div-orientation {
+        background-color: blue;
+    }
+}
+
+@media print {
+    .test-div-orientation {
+        background-color: red;
+    }
+}
+
+.test-div-responsive {
+    height: 200px;
+    width: 200px;
+    background-color: lightpink;
+}
+
+@media screen and (min-width: 400px) {
+    .test-div-responsive {
+        width: 300px;
+    }
+}
+@media screen and (min-width: 500px) {
+    .test-div-responsive {
+        width: 400px;
+    }
+}
+@media screen and (min-width: 600px) {
+    .test-div-responsive {
+        width: 500px;
+    }
+}
+@media screen and (min-width: 700px) {
+    .test-div-responsive {
+        width: 600px;
+    }
+}
+
+.test-div-large-to-small {
+    height: 200px;
+    width: 600px;
+    background-color: red;
+}
+
+@media screen and (max-width: 700px) {
+    .test-div-large-to-small {
+        width: 500px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .test-div-large-to-small {
+        width: 400px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .test-div-large-to-small {
+        width: 300px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .test-div-large-to-small {
+        width: 200px;
+    }
+}
+
+.columns {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: -20px;
+}
+
+.column {
+    margin-top: 20px;
+    background-color: darkcyan;
+    width: calc((100% - 60px) / 4);
+    padding: 50px 0;
+    text-align: center;
+}
+
+.column-last {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.column-last-item {
+    margin: auto;
+    background-color: darkcyan;
+    width: calc((100% - 60px) / 4);
+    padding: 50px 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .column,
+    .column-last-item {
+        width: calc((100% - 20px) / 2);
+        /* width: calc(50% - 10px); */
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .column,
+    .column-last-item {
+        width: 100%;
+    }
+}
