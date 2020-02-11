@@ -192,3 +192,26 @@ header {
         width: 824px;
     }
 }
+
+@media screen and (max-width: 800px) {
+    .top-header,
+    .bottom-header,
+    .text-banner,
+    .grid {
+        width: 600px;
+    }
+
+    .card-container {
+        width: 624px;
+    }
+
+    .grid-row {
+        flex-direction: column;
+    }
+
+    .grid-row > .grid-item-half,
+    .grid-row > .grid-item-1,
+    .grid-row > .grid-item-2 {
+        width: 100%;
+    }
+}
